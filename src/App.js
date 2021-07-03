@@ -8,13 +8,16 @@ function App() {
   return (
     <div className="App">
       <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
         <link
           rel="icon"
           href={`
             data:image/svg+xml;
             utf8,
             <svg enable-background="new 0 0 16 16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <text font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" font-size="16" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+              <text font-family="'Dancing Script', cursive" font-size="16" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
                 ${random}
               </text>
             </svg>
