@@ -16,7 +16,7 @@ function App() {
           href={`
             data:image/svg+xml;
             utf8,
-            <svg enable-background="new 0 0 16 16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
               <text font-family="'Dancing Script', cursive" font-size="16" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
                 ${random}
               </text>
